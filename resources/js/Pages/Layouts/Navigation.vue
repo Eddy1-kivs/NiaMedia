@@ -172,7 +172,7 @@
       dense
       :height="$vuetify.breakpoint.mdAndUp ? 80 : ''"
     >
-      <v-container class="py-0 fill-height">
+      <v-container class="pa-0 fill-height">
         <v-row>
           <v-col>
             <div
@@ -297,14 +297,14 @@
                 <Link
                   href="/auth/register"
                   v-if="!shared.user.auth"
-                  class="no-underline text-white"
+                  class="no-underline text-white mr-3 mt-3"
                 >
                   <span class="text-white"> Sign Up</span>
                 </Link>
                 <Link
                   v-if="!shared.user.auth"
                   href="/auth/login"
-                  class="no-underline text-white"
+                  class="no-underline text-white mt-3"
                 >
                   <span class="text-white">Log In</span>
                 </Link>

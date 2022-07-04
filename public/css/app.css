@@ -132,6 +132,9 @@
 .mt-\[100px\]{
     margin-top: 100px
 }
+.mr-3{
+    margin-right: 0.75rem
+}
 .block{
     display: block
 }
@@ -306,6 +309,9 @@
 .pt-2{
     padding-top: 0.5rem
 }
+.pt-6{
+    padding-top: 1.5rem
+}
 .pt-3{
     padding-top: 0.75rem
 }
@@ -314,9 +320,6 @@
 }
 .pb-8{
     padding-bottom: 2rem
-}
-.pt-6{
-    padding-top: 1.5rem
 }
 .text-center{
     text-align: center
@@ -345,13 +348,13 @@
     font-size: 1.5rem;
     line-height: 2rem
 }
-.text-5xl{
-    font-size: 3rem;
-    line-height: 1
-}
 .text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem
+}
+.text-5xl{
+    font-size: 3rem;
+    line-height: 1
 }
 .font-semibold{
     font-weight: 600

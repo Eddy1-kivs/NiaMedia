@@ -1215,7 +1215,7 @@ var render = function () {
         [
           _c(
             "v-container",
-            { staticClass: "py-0 fill-height" },
+            { staticClass: "pa-0 fill-height" },
             [
               _c(
                 "v-row",
@@ -1637,7 +1637,7 @@ var render = function () {
                                         "Link",
                                         {
                                           staticClass:
-                                            "no-underline text-white",
+                                            "no-underline text-white mr-3 mt-3",
                                           attrs: { href: "/auth/register" },
                                         },
                                         [
@@ -1655,7 +1655,7 @@ var render = function () {
                                         "Link",
                                         {
                                           staticClass:
-                                            "no-underline text-white",
+                                            "no-underline text-white mt-3",
                                           attrs: { href: "/auth/login" },
                                         },
                                         [
