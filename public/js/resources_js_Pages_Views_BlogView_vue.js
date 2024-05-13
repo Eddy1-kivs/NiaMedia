@@ -237,172 +237,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -454,90 +288,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia */ "./node_modules/@inertiajs/inertia/dist/index.js");
 /* harmony import */ var _Layouts_Navigation_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Layouts/Navigation.vue */ "./resources/js/Pages/Layouts/Navigation.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -1046,7 +796,11 @@ var render = function () {
                     [
                       _c(
                         "v-avatar",
-                        [_c("v-img", { attrs: { src: "/images/logo.jpg" } })],
+                        [
+                          _c("v-img", {
+                            attrs: { src: "/images/NiaLogo.jpeg" },
+                          }),
+                        ],
                         1
                       ),
                     ],
@@ -1324,7 +1078,7 @@ var render = function () {
                             "v-list-item-content",
                             [
                               _c("v-list-item-title", {
-                                domProps: { textContent: _vm._s("Others") },
+                                domProps: { textContent: _vm._s("World") },
                               }),
                             ],
                             1
@@ -1509,7 +1263,10 @@ var render = function () {
                             [
                               _c("v-avatar", [
                                 _c("img", {
-                                  attrs: { src: "/images/logo.jpg", alt: "" },
+                                  attrs: {
+                                    src: "/images/NiaLogo.jpeg",
+                                    alt: "",
+                                  },
                                 }),
                               ]),
                               _vm._v(" "),
@@ -1549,22 +1306,6 @@ var render = function () {
                                             ]
                                           )
                                         }
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "Link",
-                                        {
-                                          staticClass:
-                                            "capitalize grey--text no-underline",
-                                          attrs: { href: "/tv" },
-                                        },
-                                        [
-                                          _c(
-                                            "span",
-                                            { staticClass: "text-white" },
-                                            [_vm._v("Podcast ")]
-                                          ),
-                                        ]
                                       ),
                                       _vm._v(" "),
                                       _c(
@@ -1609,7 +1350,7 @@ var render = function () {
                                                           ),
                                                           [
                                                             _c("span", [
-                                                              _vm._v("others"),
+                                                              _vm._v("World"),
                                                             ]),
                                                             _vm._v(" "),
                                                             _c(
@@ -1634,7 +1375,7 @@ var render = function () {
                                                 ],
                                                 null,
                                                 false,
-                                                2172999707
+                                                3193845518
                                               ),
                                             },
                                             [
@@ -2083,7 +1824,7 @@ var render = function () {
         _c("meta", { attrs: { name: "”robots”", content: "index, follow" } }),
         _vm._v(" "),
         _c("link", {
-          attrs: { rel: "shortcut icon", href: "/images/logo.jpg" },
+          attrs: { rel: "shortcut icon", href: "/images/NiaLogo.jpeg" },
         }),
         _vm._v(" "),
         _c("meta", {

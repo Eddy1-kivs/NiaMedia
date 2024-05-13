@@ -506,7 +506,11 @@ var render = function () {
                     [
                       _c(
                         "v-avatar",
-                        [_c("v-img", { attrs: { src: "/images/logo.jpg" } })],
+                        [
+                          _c("v-img", {
+                            attrs: { src: "/images/NiaLogo.jpeg" },
+                          }),
+                        ],
                         1
                       ),
                     ],

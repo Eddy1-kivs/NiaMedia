@@ -1,21 +1,19 @@
 <template>
   <div>
+
     <Head>
       <title>{{ "Nia Media - trending " }}</title>
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <link rel="shortcut icon" href="/images/logo.jpg" />
+      <link rel="shortcut icon" href="/images/NiaLogo.jpeg" />
       <link rel="stylesheet" href="" />
       <meta name="”robots”" content="index, follow" />
 
-      <meta
-        name="keywords"
-        :content="`hot, news, money, riches, trending,  tags,  nia media, latest news,news, logs, articles,news kenya, florentinah hijah, sports news`"
-      />
+      <meta name="keywords"
+        :content="`hot, news, money, riches, trending,  tags,  nia media, latest news,news, logs, articles,news kenya, florentinah hijah, sports news`" />
 
       <meta name="description" :content="` nia media - trending`" />
     </Head>
-    <div
-      class="
+    <div class="
         md:pl-10
         lg:pl-20
         capitalize
@@ -26,9 +24,7 @@
         grey--text
         text--lighten-4
         tag
-      "
-      v-text="tagName"
-    ></div>
+      " v-text="tagName"></div>
     <v-container class="">
       <v-row v-if="loadedBlogs.data.length < 1">
         <v-col>
@@ -36,23 +32,13 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col
-          v-for="(blog, index) in loadedBlogs.data"
-          :key="index"
-          cols="12"
-          sm="6"
-          md="4"
-          lg="3"
-        >
+        <v-col v-for="(blog, index) in loadedBlogs.data" :key="index" cols="12" sm="6" md="4" lg="3">
           <v-card>
             <v-img :src="blog.image.path" :height="200">
               <div class="absolute bottom-2 left-2"></div>
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
-                  <v-progress-circular
-                    indeterminate
-                    color="grey lighten-5"
-                  ></v-progress-circular>
+                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                 </v-row>
               </template>
             </v-img>
@@ -60,20 +46,9 @@
               <div class="grid space-y-2">
                 <div class="inline-flex gap-x-3" v-if="blog.tags">
                   <div class="inline-flex gap-x-2 flex-wrap">
-                    <Link
-                      v-for="(tag, index) in blog.tags"
-                      :key="index"
-                      :href="tag.slug"
-                    >
-                      <v-btn
-                        x-small
-                        rounded
-                        outlined
-                        elevation=""
-                        color="orange darken-2"
-                        v-text="'#' + tag.name"
-                      >
-                      </v-btn>
+                    <Link v-for="(tag, index) in blog.tags" :key="index" :href="tag.slug">
+                    <v-btn x-small rounded outlined elevation="" color="orange darken-2" v-text="'#' + tag.name">
+                    </v-btn>
                     </Link>
                   </div>
                 </div>
@@ -85,16 +60,13 @@
                   <span class="text-sm text-blue-300">Alice jones</span>
                 </div>
                 <Link :href="`/blog/${blog.slug}`" class="no-underline">
-                  <div
-                    class="line-clamp-3 no-underline text-gray-900"
-                    v-text="blog.title"
-                  >
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ullam, praesentium voluptates, alias expedita aliquam sint
-                    vitae sapiente officia explicabo soluta nisi id debitis
-                    incidunt reiciendis maxime illum blanditiis aliquid
-                    aspernatur.
-                  </div>
+                <div class="line-clamp-3 no-underline text-gray-900" v-text="blog.title">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ullam, praesentium voluptates, alias expedita aliquam sint
+                  vitae sapiente officia explicabo soluta nisi id debitis
+                  incidunt reiciendis maxime illum blanditiis aliquid
+                  aspernatur.
+                </div>
                 </Link>
                 <div class="text-xs text-gray-500">
                   {{ blog.created_at | moment("calendar") }}

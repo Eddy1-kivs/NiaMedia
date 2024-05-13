@@ -5,7 +5,7 @@
         <v-list-item class="">
           <v-list-item-avatar>
             <v-avatar>
-              <v-img :src="'/images/logo.jpg'"></v-img>
+              <v-img :src="'/images/NiaLogo.jpeg'"></v-img>
             </v-avatar>
           </v-list-item-avatar>
           <v-list-item-content>
@@ -17,15 +17,15 @@
         <v-divider class=""></v-divider>
         <v-list-item v-for="(page, index) in userLinks" :key="index">
           <Link :href="page.link" class="white--text">
-            <v-list-item-icon>
-              <v-icon v-text="page.icon" color="white"> </v-icon>
-            </v-list-item-icon>
+          <v-list-item-icon>
+            <v-icon v-text="page.icon" color="white"> </v-icon>
+          </v-list-item-icon>
           </Link>
 
           <v-list-item-content>
             <Link :href="page.link" class="white--text no-underline">
-              <v-list-item-title v-text="page.name" class="white--text">
-              </v-list-item-title>
+            <v-list-item-title v-text="page.name" class="white--text">
+            </v-list-item-title>
             </Link>
           </v-list-item-content>
         </v-list-item>
@@ -37,9 +37,9 @@
       </v-app-bar-nav-icon>
       <v-spacer></v-spacer>
       <Link href="/auth/logout">
-        <v-btn elevation="" icon color="">
-          <v-icon color="white">mdi-logout</v-icon>
-        </v-btn>
+      <v-btn elevation="" icon color="">
+        <v-icon color="white">mdi-logout</v-icon>
+      </v-btn>
       </Link>
       <v-avatar>
         <img :src="shared.user.auth.avatarPath" alt="" />

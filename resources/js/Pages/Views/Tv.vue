@@ -1,16 +1,15 @@
 <template>
   <v-container class="">
+
     <Head>
       <title>{{ "Nia Media - trending " }}</title>
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <link rel="shortcut icon" href="/images/logo.jpg" />
+      <link rel="shortcut icon" href="/images/NiaLogo.jpeg" />
       <link rel="stylesheet" href="" />
       <meta name="”robots”" content="index, follow" />
 
-      <meta
-        name="keywords"
-        :content="`hot, news, money, riches, trending,  tags,  nia media, latest news,news, logs, articles,news kenya, florentinah hijah, sports news`"
-      />
+      <meta name="keywords"
+        :content="`hot, news, money, riches, trending,  tags,  nia media, latest news,news, logs, articles,news kenya, florentinah hijah, sports news`" />
 
       <meta name="description" :content="` nia media - podcast`" />
     </Head>
@@ -21,23 +20,11 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col
-        cols="12"
-        lg="4"
-        sm="6"
-        v-for="(video, index) in videos"
-        :key="index"
-      >
+      <v-col cols="12" lg="4" sm="6" v-for="(video, index) in videos" :key="index">
         <div class="video-container">
-          <iframe
-            width="560"
-            height="315"
-            class="rounded-md"
-            :src="`https://www.youtube.com/embed/${video.id.videoId}`"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" class="rounded-md" :src="`https://www.youtube.com/embed/${video.id.videoId}`"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="text-lg">
           {{ video.snippet.title }}

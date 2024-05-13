@@ -32,7 +32,7 @@ class TagCacheJob implements ShouldQueue
      */
     public function handle()
     {
-        Cache::put('tags', Tag::oldest()->limit(5)->get());
-        Cache::put('otherTags', Tag::oldest()->skip(5)->limit(200)->get());
+        Cache::put('tags', Tag::oldest()->limit(6)->get());
+        Cache::put('otherTags', Tag::oldest()->skip(6)->limit(200)->get());
     }
 }

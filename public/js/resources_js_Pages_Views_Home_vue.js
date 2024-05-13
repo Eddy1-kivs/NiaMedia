@@ -237,172 +237,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -473,37 +307,6 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -865,7 +668,11 @@ var render = function () {
                     [
                       _c(
                         "v-avatar",
-                        [_c("v-img", { attrs: { src: "/images/logo.jpg" } })],
+                        [
+                          _c("v-img", {
+                            attrs: { src: "/images/NiaLogo.jpeg" },
+                          }),
+                        ],
                         1
                       ),
                     ],
@@ -1143,7 +950,7 @@ var render = function () {
                             "v-list-item-content",
                             [
                               _c("v-list-item-title", {
-                                domProps: { textContent: _vm._s("Others") },
+                                domProps: { textContent: _vm._s("World") },
                               }),
                             ],
                             1
@@ -1328,7 +1135,10 @@ var render = function () {
                             [
                               _c("v-avatar", [
                                 _c("img", {
-                                  attrs: { src: "/images/logo.jpg", alt: "" },
+                                  attrs: {
+                                    src: "/images/NiaLogo.jpeg",
+                                    alt: "",
+                                  },
                                 }),
                               ]),
                               _vm._v(" "),
@@ -1368,22 +1178,6 @@ var render = function () {
                                             ]
                                           )
                                         }
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "Link",
-                                        {
-                                          staticClass:
-                                            "capitalize grey--text no-underline",
-                                          attrs: { href: "/tv" },
-                                        },
-                                        [
-                                          _c(
-                                            "span",
-                                            { staticClass: "text-white" },
-                                            [_vm._v("Podcast ")]
-                                          ),
-                                        ]
                                       ),
                                       _vm._v(" "),
                                       _c(
@@ -1428,7 +1222,7 @@ var render = function () {
                                                           ),
                                                           [
                                                             _c("span", [
-                                                              _vm._v("others"),
+                                                              _vm._v("World"),
                                                             ]),
                                                             _vm._v(" "),
                                                             _c(
@@ -1453,7 +1247,7 @@ var render = function () {
                                                 ],
                                                 null,
                                                 false,
-                                                2172999707
+                                                3193845518
                                               ),
                                             },
                                             [
@@ -1897,7 +1691,7 @@ var render = function () {
         }),
         _vm._v(" "),
         _c("link", {
-          attrs: { rel: "shortcut icon", href: "/images/logo.jpg" },
+          attrs: { rel: "shortcut icon", href: "/images/NiaLogo.jpeg" },
         }),
         _vm._v(" "),
         _c("link", { attrs: { rel: "stylesheet", href: "" } }),
